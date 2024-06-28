@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 //set theme data
 final theme = ThemeData(
@@ -6,7 +7,10 @@ final theme = ThemeData(
           seedColor: const Color.fromARGB(255, 183, 58, 73),
           ),
         useMaterial3: true,
+        textTheme: GoogleFonts.robotoTextTheme(),
       );
+      
+      
 
 void main() {
   runApp(const MyApp());
