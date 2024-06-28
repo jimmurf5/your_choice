@@ -2,7 +2,7 @@ class MessageCard {
   final String title;
   final String imagePath;
 
-  MessageCard({
+  const MessageCard({
     required this.title,
     required this.imagePath
   });
